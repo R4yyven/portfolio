@@ -1,0 +1,189 @@
+body {
+    background-color: #EEE2DF;
+    font-family: 'Nunito', sans-serif;
+    color:beige;
+   
+
+}
+/*fonts*/
+a {
+    color: #EEE2DF;
+    text-decoration: none;
+}
+a:hover {
+    color: #EEE2DF;
+    text-decoration: none;
+}
+a:visited {
+    color: #EEE2DF;
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #404040;
+    font-size: 32px;  
+
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #525252;
+    font-size: 25px;
+    text-align: center;
+   padding-top: -20%;
+   
+}
+
+hr {
+    border: none;
+    size: 1px;
+    background-color: #8a3232;
+    margin-top: -1%;
+    margin-bottom: -1%;
+    width: 53%;
+}
+
+.profiletext {
+    font-family: 'Nunito';
+    font-size: 35px;
+}
+
+/*left*/
+.wrapper {
+    position:absolute;
+    right: 2%;
+}
+
+
+.main {
+    width: 70%;
+    height: 100%; 
+    color:#404040;
+    
+    padding-left: 50px;  
+    position: relative;  
+    animation: fade-up 0.5s
+    
+    }
+    
+    .inhalt {
+       position: relative;
+       padding-top: 8%;
+        width: 90%;
+        height:100%;
+        margin-left: 2%;
+        text-align: justify;
+        }
+
+
+/*frames animation*/
+@keyframes fade-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    
+    }
+    
+    100% {
+        opacity: 1;
+        ttransform: translateY(0px) scale(1);
+    
+    }}
+    
+    @keyframes fade-up {
+        0% {
+            opacity: 0;
+            transform: translateY(30px) scale(0.9);
+        
+        }
+        
+        100% {
+            opacity: 1;
+            ttransform: translateY(0px) scale(1);
+        
+        }}
+
+/*right*/
+.wrappermoewe
+{ 
+position: absolute;
+top:120%;
+opacity: 50%;
+right: 30%
+}
+
+.divside {
+    background-color:#C15A51;
+    width: 25%;
+    height: 100%;
+    top: 0;
+    left: 76%;
+    position: fixed;    
+}
+.frameposition {
+ top: 340px;
+ 
+ 
+}
+
+.avatar {
+    border-radius: 70%;
+    box-shadow: 10px 10px #993333;
+    animation: fade-up 0.5s
+} 
+
+.icons {
+    vertical-align: middle;
+    margin-right: 15px;
+    opacity: 0.4;
+}
+
+.dl {
+    vertical-align: middle;
+    margin-right: 7px;
+    opacity: 0.5;
+         
+}
+.textright {
+    top: 48%;
+    width: 100%;
+    font-family: 'Nunito';
+    font-size: 13px;
+    text-align: justify;
+    position: absolute;
+    padding-left: 28%;
+    line-height: 50px;
+    /*border: 2px solid #EEE2DF;*/
+    animation: fade-down 0.5s
+   
+}
+
+.frame {
+    top: 17%;
+    left: 24%;
+    border-radius: 65%;
+    border: 0px solid #EEE2DF;
+    position: absolute;
+}
+
+/*button*/
+.button1 {
+    background-color: #993333;
+    text-align: center;
+    color: #EEE2DF;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif !important;
+    border-radius: 8px;
+    margin: 20px 2px 0px 0px;
+    padding: 3% 3%;
+    cursor: pointer;
+    border:none;
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2);
+    transition-duration: 0.4s;
+
+}
+
+.button1:hover {
+    background-color: #8a3232;
+    }
+    
